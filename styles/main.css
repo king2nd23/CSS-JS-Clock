@@ -39,4 +39,17 @@ html {
      background:black;
      position: absolute;
      top:50%;
+     transform-origin: 100%;
+     transform: rotate(90deg);
+     transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+     transition: all 0.05s;
+     border-radius: 5px;
+   }
+  .second-hand{
+    height: 3px;
+   }
+  .min-hand{
+   }
+  .hour-hand{
+    height: 12px;
    }
